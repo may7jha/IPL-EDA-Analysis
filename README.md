@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 🏏 IPL Data Analysis Project
 📌 Project Overview
 
