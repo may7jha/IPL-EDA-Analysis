@@ -1,4 +1,4 @@
-# 🏏 IPL Data Analysis (2008–2023)
+# 🏏 IPL Data Analysis (2008–2024)
 
 An Exploratory Data Analysis (EDA) project on Indian Premier League (IPL) data using Python, Pandas, Matplotlib, and Seaborn.
 
