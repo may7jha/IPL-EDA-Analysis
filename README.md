@@ -1,5 +1,6 @@
 
-🏏 IPL Data Analysis Project
+##🏏 IPL Data Analysis Project
+
 📌 Project Overview
 
 The Indian Premier League (IPL) is one of the world's most competitive T20 cricket leagues. This project analyzes IPL match and ball-by-ball data to uncover patterns related to team performance, toss decisions, batting trends, venue impact, player achievements, and pressure situations.
