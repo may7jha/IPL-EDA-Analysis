@@ -213,4 +213,3 @@ IPL-EDA-Analysis/
 
 Mayank Jha
 
-Aspiring Data Analyst | Data Science Enthusiast | Python Developer
