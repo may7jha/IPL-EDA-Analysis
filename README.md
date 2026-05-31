@@ -1,25 +1,34 @@
-# 🏏 IPL Data Analysis Project
+# 🏏 IPL Data Analysis (2008–2023)
 
-## 📌 Project Overview
+An Exploratory Data Analysis (EDA) project on Indian Premier League (IPL) data using Python, Pandas, Matplotlib, and Seaborn.
 
-This project performs Exploratory Data Analysis (EDA) on Indian Premier League (IPL) match and ball-by-ball datasets to uncover patterns in team performance, toss decisions, batting trends, venue impact, player achievements, and match outcomes.
-
-The objective is to transform raw cricket data into meaningful business insights using Python and data visualization techniques.
+This project analyzes 15+ years of IPL matches to uncover patterns related to team performance, batting trends, toss impact, venue influence, player achievements, and match outcomes.
 
 ---
 
-## 🎯 Business Problem
+## 📌 Project Overview
 
-What factors contribute to success in the IPL?
+The Indian Premier League (IPL) is one of the world's most competitive T20 cricket leagues. This project explores historical IPL data to answer important questions such as:
 
-This project explores:
-
-- Which teams have dominated IPL history?
-- Does winning the toss actually matter?
+- Which teams have dominated the IPL?
+- Does winning the toss significantly affect match results?
 - How has batting evolved over the years?
-- Who are the greatest IPL performers?
-- Which venues favor high scoring?
+- Which players have had the greatest impact?
+- Which venues are the highest scoring?
 - What are the most thrilling matches in IPL history?
+
+The objective is to transform raw cricket data into meaningful insights through data analysis and visualization.
+
+---
+
+## 🎯 Objectives
+
+- Analyze team performance across seasons
+- Study toss impact on match outcomes
+- Identify top-performing batsmen and bowlers
+- Explore venue-wise scoring trends
+- Examine batting evolution over time
+- Discover interesting match statistics and records
 
 ---
 
@@ -29,163 +38,120 @@ This project explores:
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Jupyter Notebook
 
 ---
 
 ## 📂 Dataset
 
+The project uses IPL historical datasets:
+
 ### Matches Dataset
-
-Contains match-level information:
-
+Contains:
+- Match ID
 - Teams
 - Venue
-- Toss Winner
-- Match Winner
-- Result Margin
-- Season
+- Toss details
+- Match winner
+- Season information
 
 ### Deliveries Dataset
-
-Contains ball-by-ball information:
-
-- Batter
-- Bowler
-- Runs Scored
+Contains:
+- Ball-by-ball information
+- Runs scored
 - Wickets
-- Extras
+- Batsman and bowler details
+- Match events
 
 ---
 
-# 📊 Analysis Performed
+## 📊 Analysis Performed
 
-## 1. Team Dominance Analysis
+### Team Performance Analysis
+- Team win percentages
+- Most successful IPL teams
+- Highest team totals
 
-### Questions Answered
+### Batting Analysis
+- Top run scorers
+- Highest individual scores
+- Team batting trends
 
-- Which teams played the most matches?
-- Which teams won the most matches?
-- Which teams have the highest win percentage?
+### Bowling Analysis
+- Top wicket takers
+- Bowling impact analysis
 
-### Key Insights
+### Toss Analysis
+- Toss win vs match win comparison
+- Toss decision patterns
 
-- Mumbai Indians and Chennai Super Kings emerged as the most successful franchises.
-- Consistent teams maintained strong win percentages across multiple seasons.
+### Venue Analysis
+- Highest scoring venues
+- Venue-wise run distribution
 
----
-
-## 2. Toss Impact Analysis
-
-### Questions Answered
-
-- How often does the toss winner win the match?
-- Does batting or fielding first provide an advantage?
-
-### Key Insights
-
-- Toss advantage exists but is not decisive.
-- Winning the toss does not guarantee victory.
-
----
-
-## 3. Batting Evolution Analysis
-
-### Questions Answered
-
-- How have average IPL scores changed over time?
-- Which seasons were the highest scoring?
-
-### Key Insights
-
-- IPL has become increasingly batting-friendly.
-- Recent seasons recorded the highest average team scores.
+### Match Insights
+- Closest IPL matches
+- Largest victories
+- Historic IPL records
 
 ---
 
-## 4. Highest Team Totals
+## 🏆 Key Findings
 
-### Key Insight
+### Team Insights
+- Certain franchises have consistently maintained high win percentages across multiple seasons.
+- Team totals have increased significantly over the years due to aggressive T20 batting strategies.
 
-- Sunrisers Hyderabad recorded the highest IPL team total of **287 runs**.
+### Toss Impact
+- Winning the toss provides only a moderate advantage.
+- Team strength generally has a greater impact on match results than toss outcomes.
 
----
+### Batting Insights
+- Virat Kohli ranks among the highest run scorers in IPL history.
+- The IPL has witnessed a steady rise in batting strike rates and scoring rates.
 
-## 5. IPL Batting Legends
+### Bowling Insights
+- Yuzvendra Chahal is among the leading wicket-takers in IPL history.
+- Successful teams often combine strong batting depth with effective bowling attacks.
 
-### Key Insights
-
-- Virat Kohli leads the all-time run charts.
-- Chris Gayle holds the highest individual IPL score with **175***.
-
----
-
-## 6. IPL Bowling Legends
-
-### Key Insight
-
-- Yuzvendra Chahal is the highest wicket-taker in IPL history.
-
----
-
-## 7. Venue Impact Analysis
-
-### Key Insights
-
-- Eden Gardens hosted the most IPL matches.
-- Visakhapatnam recorded the highest average match score.
+### Venue Insights
+- Certain venues consistently produce higher scoring matches.
+- Ground dimensions and pitch conditions significantly influence scoring patterns.
 
 ---
 
-## 8. Pressure Situation Analysis
-
-### Key Insights
-
-- Several IPL matches were decided by just **1 run**.
-- IPL consistently delivers high-pressure finishes and thrilling contests.
-
----
-
-# 📈 Visualizations
+## 📈 Visualizations
 
 The project includes:
 
-- Team Win Percentage Analysis
-- Toss Impact Analysis
-- Batting Trends by Season
-- Highest Team Totals
-- Top Run Scorers
-- Top Wicket Takers
-- Venue Analysis
-- Closest Matches
-- Largest Victories
+- Bar Charts
+- Horizontal Bar Charts
+- Line Charts
+- Trend Analysis
+- Team Rankings
+- Venue Comparisons
+- Season-wise Performance Analysis
 
 ---
 
-# 🏆 Major Findings
+## 📷 Sample Visualizations
 
-| Metric | Result |
-|----------|----------|
-| Highest Team Total | Sunrisers Hyderabad – 287 |
-| Highest Individual Score | Chris Gayle – 175* |
-| Most Runs | Virat Kohli |
-| Most Wickets | Yuzvendra Chahal |
-| Highest Scoring Venue | Visakhapatnam |
-| Closest Winning Margin | 1 Run |
+### Top Run Scorers
+![Top Run Scorers](Images/top_10_run_scorers.png)
 
----
+### Team Win Percentage
+![Team Win Percentage](Images/team_win_percentage.png)
 
-# 🚀 Future Improvements
+### Toss Impact
+![Toss Impact](Images/toss_impact.png)
 
-- Match Winner Prediction using Machine Learning
-- Player Performance Analysis
-- Strike Rate and Economy Rate Analysis
-- Interactive Power BI Dashboard
-- Tableau Dashboard Development
+### Highest Team Totals
+![Highest Team Totals](Images/top_10_highest_team_totals.png)
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 IPL-EDA-Analysis/
@@ -197,7 +163,7 @@ IPL-EDA-Analysis/
 ├── Images/
 │   ├── team_win_percentage.png
 │   ├── top_10_run_scorers.png
-│   ├── top_10_wicket_takers.png
+│   ├── toss_impact.png
 │   └── ...
 │
 ├── Notebook/
@@ -209,7 +175,57 @@ IPL-EDA-Analysis/
 
 ---
 
+## ▶️ How to Run
+
+### Clone Repository
+
+```bash
+git clone https://github.com/may7jha/IPL-EDA-Analysis.git
+```
+
+### Navigate to Project
+
+```bash
+cd IPL-EDA-Analysis
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```text
+Notebook/IPL_EDA_Analysis.ipynb
+```
+
+---
+
+## 🚀 Future Improvements
+
+- Build IPL match winner prediction models
+- Apply Machine Learning algorithms
+- Analyze player strike rates and economy rates
+- Create interactive dashboards using Power BI/Tableau
+- Develop advanced cricket analytics metrics
+
+---
+
 ## 👨‍💻 Author
 
-Mayank Jha
+**Mayank Jha**
 
+- LinkedIn: www.linkedin.com/in/mayank-jha-30801823b
+- GitHub: github.com/may7jha
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
