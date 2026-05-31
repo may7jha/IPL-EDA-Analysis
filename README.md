@@ -1,6 +1,8 @@
 
 ###  🏏 IPL Data Analysis Project
 
+
+🏏 IPL Data Analysis Project
 📌 Project Overview
 
 The Indian Premier League (IPL) is one of the world's most competitive T20 cricket leagues. This project analyzes IPL match and ball-by-ball data to uncover patterns related to team performance, toss decisions, batting trends, venue impact, player achievements, and pressure situations.
@@ -104,46 +106,62 @@ IPL consistently delivers high-pressure finishes and thrilling contests.
 
 The project includes:
 
-Bar Charts
-Horizontal Bar Charts
-Line Charts
-Team Rankings
-Venue Comparisons
-Seasonal Trends
-🏆 Major Insights
-Metric	Result
-Highest Team Total	Sunrisers Hyderabad – 287
-Highest Individual Score	Chris Gayle – 175*
-Most Runs	Virat Kohli
-Most Wickets	YS Chahal
-Highest Scoring Venue	Visakhapatnam
-Closest Winning Margin	1 Run
-🚀 Future Improvements
-Predict match winners using Machine Learning
-Analyze player strike rates and economy rates
-Create interactive dashboards using Power BI or Tableau
-Build IPL win prediction models
-📁 Repository Structure
-IPL-Data-Analysis/
+## 📊 Visualizations
+
+The project includes:
+
+- Bar Charts
+- Horizontal Bar Charts
+- Line Charts
+- Team Rankings
+- Venue Comparisons
+- Seasonal Trends
+
+---
+
+## 🏆 Major Insights
+
+| Metric | Result |
+|----------|----------|
+| Highest Team Total | Sunrisers Hyderabad – 287 |
+| Highest Individual Score | Chris Gayle – 175* |
+| Most Runs | Virat Kohli |
+| Most Wickets | YS Chahal |
+| Highest Scoring Venue | Visakhapatnam |
+| Closest Winning Margin | 1 Run |
+
+---
+
+## 🚀 Future Improvements
+
+- Predict match winners using Machine Learning
+- Analyze player strike rates and economy rates
+- Create interactive dashboards using Power BI or Tableau
+- Build IPL win prediction models
+
+---
+
+## 📁 Repository Structure
+
+```text
+IPL-EDA-Analysis/
 │
-├── data/
+├── Data/
 │   ├── matches.csv
 │   └── deliveries.csv
 │
-├── images/
-│   ├── team_wins.png
-│   ├── toss_analysis.png
-│   ├── batting_evolution.png
-│   ├── highest_team_totals.png
-│   ├── top_run_scorers.png
-│   ├── top_wicket_takers.png
-│   └── venue_analysis.png
+├── Images/
+│   ├── team_win_percentage.png
+│   ├── top_10_run_scorers.png
+│   ├── top_10_wicket_takers.png
+│   └── ...
 │
-├── notebooks/
-│   └── IPL_Data_Analysis.ipynb
+├── Notebook/
+│   └── IPL_EDA_Analysis.ipynb
 │
 ├── README.md
-├── requirements.txt
+└── requirements.txt
+```
 =======
 🏏 IPL Data Analysis Project
 📌 Project Overview
